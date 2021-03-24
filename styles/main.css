@@ -1,0 +1,226 @@
+main {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 90px;
+}
+
+blockquote {
+    padding: 50px 0;
+}
+/* Presentation starts here */
+
+.column-section {
+    width: 100%;
+    height: 80vh;
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap; 
+}
+
+.about {
+    height: 100%;
+    max-width: 500px;
+    width: 50%;
+    padding: 20px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.p-highlight {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.h1-about {
+    font-size: 60px;
+    font-weight: 700;
+    color: #FE9D52;
+    padding: 10px 0 25px;
+}
+
+.description-about {
+    font-weight: 300;
+    padding: 15px 0;
+    line-height: 1.6;
+}
+
+.button-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button-about {
+    background-color:#FE9D52;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.image-about {
+    height: 80%;
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.knowledges {
+    background-color: #F6F7FC;
+    padding: 110px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    padding: 10px 0;
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.knowledges-text {
+    padding: 30px 0;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 400px;
+}
+ /* Knowledges' section starts here */
+
+.cards-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 170px;
+    padding: 45px 0;
+}
+
+.skills {
+    width: 260px;
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #DDDFE5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.p-skills {
+    padding-top: 20px;
+    font-weight: 700;
+}
+
+.html {
+    color: #E54D27;
+}
+
+.css {
+    color: #3D8FC6
+}
+
+.sass {
+    color: #CC6699
+}
+
+.jS {
+    color: #EFDB4F
+}
+
+.react {
+    color: #61DAFB;
+}
+
+.git {
+    color: #F34F29
+}
+
+/* Quote section from here*/
+
+.quote {
+    background-color: #FE9D52;
+}
+
+.quote-content {
+    max-width: 800px;
+    flex-direction: column;
+}
+.quotation-marks {
+    font-size: 100px;
+    color: white;
+    display: flex;
+}
+
+.p-quote {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.person-name {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* Projects ection */
+
+.padding-30 {
+    padding: 30px 0;
+}
+
+.project-content {
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.p-project {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    padding: 30px 0;
+    margin: 20px 0;
+}
+.align-column {
+    display: flex;
+    flex-direction: column
+}
+.cards-projects {
+    padding: 0 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.projects {
+    width: 330px;
+    height: 330px;
+    border: 1px solid grey;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid #DDDFE5;
+    text-align: center;
+    font-weight: 500;
+}
+
+.projects-img {
+    height: 80%;
+    width: 100%;
+    padding: 30px;
+}
+

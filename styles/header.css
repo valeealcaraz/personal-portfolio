@@ -1,0 +1,40 @@
+header {
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    padding: 35px 180px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: 0 0 30px 0 rgb(134 134 134 / 25%);
+    position: fixed;
+    z-index: 1000
+}
+
+nav{
+    display: flex;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: BLACK;
+}
+
+.items-nav {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-button {
+    background-color: #FE9D52;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
