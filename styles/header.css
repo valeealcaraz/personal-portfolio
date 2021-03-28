@@ -20,11 +20,6 @@ li {
     list-style: none;
 }
 
-a {
-    text-decoration: none;
-    color: BLACK;
-}
-
 .items-nav {
     display: flex;
     flex-direction: row;
@@ -32,9 +27,26 @@ a {
     font-weight: 400;
 }
 
+.nav-header {
+    color: BLACK; 
+    animation-duration: 1s;
+}
+
+.nav-header:hover {
+    transition-property: color;
+    color: #FE9D52;
+}
+
 .menu-button {
     background-color: #FE9D52;
     color: white;
-    padding: 10px 20px;
+    opacity: 1;
+    padding: 10px 30px;
     border-radius: 40px;
 }
+
+.menu-button:hover {
+    transition-property: opacity;
+    opacity: 0.8;
+}
+
