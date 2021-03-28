@@ -17,6 +17,10 @@ section {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     flex-direction: column;
