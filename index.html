@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./styles/style.css"/>
     <link rel="stylesheet" href="./styles/header.css"/>
     <link rel="stylesheet" href="./styles/main.css"/>
+    <link rel="stylesheet" href="./styles/form.css"/>
+    <link rel="stylesheet" href="./styles/footer.css"/>
     <script src="https://kit.fontawesome.com/1cf0fc1f6f.js" crossorigin="anonymous"></script>
 </head>
 
@@ -16,15 +18,15 @@
     <header>
         <nav>
             <ul class="items-nav">
-                <li><a href="#hola">HOLA</a></li>
-                <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
-                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#hola" class="nav-header">HOLA</a></li>
+                <li><a href="#conocimientos" class="nav-header">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos" class="nav-header">PROYECTOS</a></li>
                 <li><a href="#contacto" class="menu-button">CONTACTO</a></li>
             </ul>
         </nav> 
     </header>
     <main>
-        <section class="column-section">
+        <section class="column-section" id="hola">
             <div class="about">
                 <p class="p-highlight">¡Hola! Soy</p>
                 <h1 class="h1-about">Vale Alcaraz</h1>
@@ -33,7 +35,7 @@
             </div>
             <div class="image-about"><img src="assets/images/undraw_online_resume_re_ru7s.svg"></div>
         </section>
-        <section class="knowledges center">
+        <section class="knowledges center" id="conocimientos">
             <div class="title">
                 <h2>Mis conocimientos</h2>
             </div>
@@ -80,7 +82,7 @@
                 <div class="quote-content"><p class="person-name">The client</p></div>
             </div>
         </section>
-        <section class="align-column center">
+        <section class="align-column center" id="proyectos">
             <div class="project-content center">
                 <div class="title">
                     <h2>Mis proyectos</h2>
@@ -90,32 +92,95 @@
                 </div>
             </div>
             <div class="cards-projects">
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/portfolio.svg" height= 80% width=100%>Portfolio</a>
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_interaction_design_odgc.svg" class="projects-img">Online hobby teaching</a> 
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_create_f05x.svg" class="projects-img">Desarrollo de curso online</a>
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_wordpress_utxt.svg" class= "projects-img">Diseño de blog</a>
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_static_website_0107.svg" class="projects-img">Static website </a>
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_building_websites_i78t.svg" class="projects-img">User Experience</a>
-                    </div>
-                    <div class="projects">
-                        <a href="#"><img src="assets/images/undraw_Scrum_board_re_wk7v.svg" class="projects-img">Design thinking</a>
-                    </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/portfolio.svg" height= 80% width=100%>Portfolio</a>
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_interaction_design_odgc.svg" class="projects-img">Online hobby teaching</a> 
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_create_f05x.svg" class="projects-img">Desarrollo de curso online</a>
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_wordpress_utxt.svg" class= "projects-img">Diseño de blog</a>
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_static_website_0107.svg" class="projects-img">Static website </a>
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_building_websites_i78t.svg" class="projects-img">User Experience</a>
+                </div>
+                <div class="projects">
+                    <a href="#"><img src="assets/images/undraw_Scrum_board_re_wk7v.svg" class="projects-img">Design thinking</a>
+                </div>
             </div>
+        </section>
+        <section class="contact center">
+            <div class="contact-box">
+                <div class="contact1">
+                    <h2 class="title">Contactame</h2>
+                    <p class="p-contact">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, at modi? Eum provident sapiente dolorem aut hic vero aliquid ea rerum autem, corrupti illo beatae officiis inventore vitae aliquam tempore.</p>
+                    <div class="rrss">
+                        <i class="fab fa-twitter icon-color"></i>
+                        <p class="p-contact-rrss">@valealcaraz</p>
+                    </div>
+                    <div class="rrss">
+                        <i class="fab fa-github-alt icon-color"></i>
+                        <p class="p-contact-rrss">@valealcaraz</p>
+                    </div>
+                    <div class="rrss">
+                        <i class="fab fa-linkedin-in icon-color"></i>
+                        <p class="p-contact-rrss">@valealcaraz</p>
+                    </div>
+                    <div class="rrss">
+                        <i class="far fa-envelope-open icon-color"></i>
+                        <p class="p-contact-rrss">vale.alcaraz14@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact2">
+                    <h2 class="title">Escribime</h2>
+                    <form>
+                        <div class="name-box">
+                            <div class="name">
+                                <label for="idName">Nombre *</label>
+                                <input type="text" name="name" id="name" placeholder="p. ej.: Vale" class="m10" required/>
+                            </div>
+                            <div class="surname">
+                                <label for="idSurname" class="m-0-10">Apellido *</label>
+                                <input type="text" name="Surname" id="surname" placeholder="p. ej.: Alcaraz" required/>
+                            </div>    
+                        </div>
+                        <label for="idEmail">Email *</label>
+                        <input type="email" name="email" id="email" placeholder="p. ej.: vale@gmail.com"/>
 
-
+                        <label for="idMessage">Mensaje *</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Escriba su mensaje aquí"></textarea>
+                        
+                        <button type="submit" class="borders">Enviar</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <div class="center menu-footer">
+            <ul class="items-nav">
+                <li><a href="#hola">HOLA</a></li>
+                <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div class="rrss-foot">
+            <i class="fab fa-twitter icon-footer"></i>
+            <i class="fab fa-github-alt icon-footer"></i>
+            <i class="fab fa-linkedin-in icon-footer"></i>
+            <i class="far fa-envelope-open icon-footer"></i>
+        </div>
+        <div class="center">
+            <p>Hecho con ❤️ por Vale</p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>
