@@ -1,6 +1,6 @@
 header {
     height: 90px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     padding: 35px 180px;
     display: flex;
@@ -9,6 +9,12 @@ header {
     box-shadow: 0 0 30px 0 rgb(134 134 134 / 25%);
     position: fixed;
     z-index: 1000
+}
+
+@media (max-width: 1000px) {
+    header {
+        display: none
+    }
 }
 
 nav{
@@ -29,12 +35,20 @@ li {
 
 .nav-header {
     color: BLACK; 
+    padding: 10px;
+    border: none;
     animation-duration: 1s;
 }
 
 .nav-header:hover {
     transition-property: color;
     color: #FE9D52;
+}
+
+.nav-header:active {
+    border: 1px solid #FE9D52;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px #FE9D52;
 }
 
 .menu-button {
@@ -46,7 +60,6 @@ li {
 }
 
 .menu-button:hover {
-    transition-property: opacity;
+    transition-property: all;
     opacity: 0.8;
 }
-
