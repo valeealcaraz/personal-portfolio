@@ -11,6 +11,11 @@ footer {
     padding: 40px 40px 30px;
 }
 
+@media (max-width: 500px) {
+    .menu-footer {
+        display: none;
+    }
+}
 footer a {
     text-decoration: none;
     color: white;
@@ -25,13 +30,12 @@ footer a {
 
 .icon-footer {
     margin: 10px;
+    padding-top: 5px;
     width: 40px;
     height: 40px;
     background-color: white;
     color: #FE9D52;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 40px;
+    font-size: 1.5em;
     border-radius: 50%;
     border: 1px solid#FE9D52;
     display: flex;
@@ -44,5 +48,4 @@ footer a {
     background-color: transparent;
     color: white;
     border: 1px solid white;
-
 }

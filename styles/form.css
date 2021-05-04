@@ -41,6 +41,14 @@ button:hover {
     opacity: 0.8;
 }
 
+@media (max-width: 500px) {
+    button{
+        font-size: 12px;
+        width: 150px;
+        height: 35px;
+    }
+}
+
 .name-box {
     width: 100%;
     padding-top: 4px;
@@ -48,6 +56,11 @@ button:hover {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+@media (max-width: 500px) {
+    .name-box {
+        flex-direction: column;
+    }
 }
 
 .name {
@@ -63,6 +76,13 @@ button:hover {
     flex-direction: column;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+    .name, .surname {
+        width: 100%;
+        margin-top: 20px;
+    }
 }
 
 .m-top20 {

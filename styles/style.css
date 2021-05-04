@@ -6,10 +6,19 @@
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
 }
+ 
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
 
 p {
     font-size: 16px;
     font-weight: 300;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 section {
@@ -31,4 +40,16 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 500px) {
+    p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
 }
