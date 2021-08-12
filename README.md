@@ -1,2 +1,2 @@
-# ada-front-portfolio
-Portafolio con primer proyecto de Ada
+# Personal portfolio
+Portafolio en construcción. Voy sumando los conocimientos que adquiero y los proyectos realizados.
