@@ -1,4 +1,4 @@
-## Portfolio persona (english below) :paraguay:
+## Portfolio personal (english below) :paraguay:
 
 Portafolio en construcción. Voy sumando los conocimientos que adquiero y los proyectos realizados. Pueden verlo deployado aquí https://valeealcaraz.github.io/personal-portfolio/
 
